@@ -2,22 +2,6 @@
 
 Tool tự động mint/shield/check balance nhiều ví trên Base Sepolia, chuyển từ Python sang Node.js.
 
-## Cấu trúc thư mục
-
-```
-Inco_Network_Auto/
-│
-├── key.txt                # Chứa private key, mỗi dòng 1 key
-├── nodejs/
-│   ├── main.js            # File chạy chính
-│   ├── config.js          # Cấu hình chain, contract, action
-│   ├── logging.js         # Module log màu sắc
-│   ├── appearance.js      # Logo, credit
-│   ├── utils.js           # Hàm tiện ích: đọc key, mint, shield, approve, show_balance, wait
-│   ├── package.json       # Quản lý package Node.js
-│   └── README.md          # Hướng dẫn sử dụng
-└── ...
-```
 
 ## Hướng dẫn sử dụng
 
@@ -48,10 +32,6 @@ hoặc
 ```bash
 node main.js
 ```
-
-## Ghi chú
-- Tool sẽ tự động chạy cho tất cả các ví trong `key.txt`, log trạng thái, giao diện tiếng Việt, màu sắc, giống bản Python.
-- Nếu muốn mở rộng chức năng, chỉ cần thêm module vào thư mục `nodejs/` và import vào `main.js`.
 
 ---
 
